@@ -17,7 +17,6 @@
     "typescript config",
     "typecript"
   ],
-  "private": false,
   "scripts": {
     "ci": "exit 0",
     "ci:dev": "exit 0",
