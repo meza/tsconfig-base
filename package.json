@@ -1,0 +1,67 @@
+{
+  "name": "@meza/tsconfig-base",
+  "version": "0.0.1",
+  "main": "index.js",
+  "author": {
+    "name": "meza"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/meza/tsconfig-base.git"
+  },
+  "bugs": {
+    "url": "https://github.com/meza/tsconfig-base/issues"
+  },
+  "homepage": "https://github.com/meza/tsconfig-base#readme",
+  "keywords": [
+    "typescript config",
+    "typecript"
+  ],
+  "private": false,
+  "scripts": {
+    "ci": "exit 0",
+    "ci:dev": "exit 0",
+    "clean": "exit 0",
+    "clean:all": "rm -rf node_modules .cache",
+    "lint": "eslint",
+    "lint:fix": "yarn lint --fix",
+    "release": "standard-version -a"
+  },
+  "standard-version": {
+    "bumpFiles": [
+      {
+        "filename": "package.json",
+        "type": "json"
+      }
+    ],
+    "packageFiles": [
+      {
+        "filename": "package.json",
+        "type": "json"
+      }
+    ]
+  },
+  "commitlint": {
+    "extends": [
+      "@commitlint/config-conventional"
+    ]
+  },
+  "husky": {
+    "hooks": {
+      "post-merge": "install-deps-postmerge",
+      "pre-push": "yarn todo && yarn ci",
+      "pre-commit": "yarn lint",
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+    }
+  },
+  "devDependencies": {
+    "eslint": "^8.1.0",
+    "eslint-config-tailored-tunes": "^5.0.2",
+    "@commitlint/cli": "^14.1.0",
+    "@commitlint/config-conventional": "^14.1.0",
+    "husky": "^7.0.4",
+    "install-deps-postmerge": "^2.0.1",
+    "standard-version": "^9.3.2",
+    "yarn": "^1.22.17"
+  }
+}
