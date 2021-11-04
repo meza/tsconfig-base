@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.1.0](https://github.com/meza/tsconfig-base/compare/v1.0.0...v1.1.0) (2021-11-04)
+
+
+### Features
+
+* added linter ([28abb56](https://github.com/meza/tsconfig-base/commit/28abb56518401d1e6b28c07efb8a197abf5bb396))
+
 ## [1.0.0](https://github.com/meza/tsconfig-base/compare/v0.0.8...v1.0.0) (2021-11-04)
 
 ### [0.0.8](https://github.com/meza/tsconfig-base/compare/v0.0.7...v0.0.8) (2021-11-04)
