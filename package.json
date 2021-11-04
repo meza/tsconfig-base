@@ -1,6 +1,6 @@
 {
   "name": "@meza/tsconfig-base",
-  "version": "0.0.8",
+  "version": "1.0.0",
   "main": "tsconfig.json",
   "author": {
     "name": "meza"
@@ -22,8 +22,9 @@
     "ci:dev": "exit 0",
     "clean": "exit 0",
     "clean:all": "rm -rf node_modules .cache",
-    "lint": "eslint .",
+    "lint": "eslint . --ext .json",
     "lint:fix": "yarn lint --fix",
+    "test": "yarn lint",
     "release": "standard-version -a"
   },
   "standard-version": {
