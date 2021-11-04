@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.8](https://github.com/meza/tsconfig-base/compare/v0.0.7...v0.0.8) (2021-11-04)
+
+
+### Bug Fixes
+
+* fixed incompatible settings ([4fe9035](https://github.com/meza/tsconfig-base/commit/4fe9035a145fb5e5e125c899b1a9b97c0203eaf3))
+
 ### [0.0.7](https://github.com/meza/tsconfig-base/compare/v0.0.6...v0.0.7) (2021-11-04)
 
 
