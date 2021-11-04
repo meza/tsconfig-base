@@ -1,6 +1,6 @@
 {
   "name": "@meza/tsconfig-base",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "main": "tsconfig.json",
   "author": {
     "name": "meza"
