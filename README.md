@@ -8,16 +8,12 @@ Use it if you like strict conventions.
 Add the following to your local tsconfig.json:
 ```json
 {
-  "extends": "@meza/tsconfig-base",
-  "rootDir": "./src",
-  "outDir": "./dist",
-  "tsBuildInfoFile": "./cache/tsbuildinfo",
-  "jsx": "react" //if you're using react
+  "extends": "@meza/tsconfig-base"
 }
 ```
 
 # Development
 
-- run `eslint`
+- run `yarn test`
 - run `yarn release` to publish
 - use [Conventional Commits](https://www.conventionalcommits.org/)
