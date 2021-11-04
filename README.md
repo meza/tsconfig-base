@@ -5,6 +5,13 @@ Use it if you like strict conventions.
 
 `yarn add -D @meza/tsconfig-base`
 
+Add the following to your local tsconfig.json:
+```json
+{
+  "extends": "@meza/tsconfig-base/tsconfig.json"
+}
+```
+
 # Development
 
 - run `eslint`

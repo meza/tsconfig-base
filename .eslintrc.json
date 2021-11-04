@@ -1,5 +1,14 @@
 {
+  "overrides": [
+    {
+      "files": ["*.js", "*.json"]
+    }
+  ],
   "extends": [
-    "tailored-tunes"
+    "tailored-tunes",
+    "plugin:json/recommended"
+  ],
+  "plugins": [
+    "json"
   ]
 }

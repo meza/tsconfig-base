@@ -1,7 +1,7 @@
 {
   "name": "@meza/tsconfig-base",
   "version": "0.0.5",
-  "main": "index.js",
+  "main": "tsconfig.json",
   "author": {
     "name": "meza"
   },
@@ -22,7 +22,7 @@
     "ci:dev": "exit 0",
     "clean": "exit 0",
     "clean:all": "rm -rf node_modules .cache",
-    "lint": "eslint",
+    "lint": "eslint .",
     "lint:fix": "yarn lint --fix",
     "release": "standard-version -a"
   },
@@ -54,10 +54,11 @@
     }
   },
   "devDependencies": {
-    "eslint": "^8.1.0",
-    "eslint-config-tailored-tunes": "^5.0.2",
     "@commitlint/cli": "^14.1.0",
     "@commitlint/config-conventional": "^14.1.0",
+    "eslint": "^8.1.0",
+    "eslint-config-tailored-tunes": "^5.0.2",
+    "eslint-plugin-json": "^3.1.0",
     "husky": "^7.0.4",
     "install-deps-postmerge": "^2.0.1",
     "standard-version": "^9.3.2",
