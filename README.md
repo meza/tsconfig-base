@@ -8,7 +8,11 @@ Use it if you like strict conventions.
 Add the following to your local tsconfig.json:
 ```json
 {
-  "extends": "@meza/tsconfig-base/tsconfig.json"
+  "extends": "@meza/tsconfig-base",
+  "rootDir": "./src",
+  "outDir": "./dist",
+  "tsBuildInfoFile": "./cache/tsbuildinfo",
+  "jsx": "react" //if you're using react
 }
 ```
 

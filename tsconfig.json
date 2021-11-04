@@ -1,13 +1,10 @@
 {
   "compilerOptions": {
-    "rootDir": "./src",
-    "outDir": "./dist",
     "module": "ES6",
     "target": "ES6",
     "moduleResolution": "node",
     "sourceMap": true,
     "incremental": true,
-    "tsBuildInfoFile": "./cache/tsbuildinfo",
     "allowUnreachableCode": false,
     "allowUnusedLabels": false,
     "strict": true,
@@ -36,7 +33,6 @@
     "isolatedModules": true,
     "emitDecoratorMetadata": true,
     "experimentalDecorators": false,
-    "jsx": "react",
     "suppressImplicitAnyIndexErrors": false,
     "downlevelIteration": true,
     "skipLibCheck": true,
